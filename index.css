@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-image: url('https://api.yimian.xyz/img');
+    background-size: cover; /* 背景图覆盖整个屏幕 */
+    background-repeat: no-repeat; /* 防止背景图重复 */
+    background-position: center; /* 将背景图居中 */
+    height: auto; /* 确保高度是自动调整的 */
+    overflow: visible; /* 允许内容超出时滚动 */
+}
+
+.webs {
+    background-color: rgba(255, 255, 255, 0.8); /* 白色背景，80%不透明度 */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 800px;
+    margin-top: 20px;
+}
+
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    padding: 8px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchEngine {
+    padding: 8px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    width: 25%; /* 每个链接占据父容器的30%，留出空隙 */
+    margin-bottom: 20px;
+}
+
+.link-item1{
+    display: flex;
+    align-items: center;
+    width: 50%; /* 每个链接占据父容器的30%，留出空隙 */
+    margin-bottom: 20px;
+}
+
+.link-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.link-item a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.link-item1 a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.link-item a:hover {
+    text-decoration: underline;
+}
+
